@@ -1,0 +1,162 @@
+@media only screen and (min-width:1000px) {
+    .container{
+        display: grid;
+        grid-template-areas:"box1 box1 box1"
+         "header header header"
+        "feature1 feature2 feature3"
+        "signup signup signup"
+        "content content content";
+    }
+    .box{
+        text-align: center;
+        place-content: center;
+        font-family:'Arial Narrow', Arial, sans-serif;
+        font-size: larger;
+        height: 150px; 
+    
+    }
+    #box1{
+        background-color: blue;
+        height: 50px;
+        grid-area: box1;
+    }
+    #header{
+        grid-area: header;
+        background-color: lightblue;
+        
+    }
+    #feature1{
+        grid-area: feature1;
+        background-color: orange;
+      
+        
+    }
+    #feature2{
+        grid-area: feature2;
+        background-color:  plum;
+
+    }
+    #feature3{
+        grid-area: feature3;
+        background-color: orangered;
+
+    }
+    #signup{
+        background-color: rgb(18, 231, 231);
+        grid-area: signup;
+    }
+    
+    #content{
+        grid-area: content;
+        background-color: lightgray;
+
+    }
+}
+@media only screen and (min-width:700px) and (max-width:1000px){
+    .container{
+        display: grid;
+        grid-template-areas: "box1 box1"
+        "header header "
+        "content content"
+        "signup feature1"
+        "feature3 feature2";
+    }
+    .box{
+        text-align: center;
+        place-content: center;
+        font-family:'Arial Narrow', Arial, sans-serif;
+        font-size: larger;
+        height: 150px; 
+    }
+    #box1{
+        background-color: blue;
+        height: 50px;
+        grid-area: box1;
+    }
+    #header{
+        grid-area: header;
+        background-color: lightblue;
+        
+    }
+    #feature1{
+        grid-area: feature1;
+        background-color: orange;
+      
+        
+    }
+    #feature2{
+        grid-area: feature2;
+        background-color: plum;
+
+    }
+    #feature3{
+        grid-area: feature3;
+        background-color: orangered;
+
+    }
+    #signup{
+        background-color: rgb(18, 231, 231);
+        grid-area: signup;
+    }
+    
+    #content{
+        grid-area: content;
+        background-color: lightgray;
+
+    }
+}
+@media only screen and (min-width:400px) and (max-width:700px){
+    .container{
+        display: grid;
+        grid-template-areas: "box1"
+        "header  "
+        "content"
+        "signup" 
+        "feature1"
+        "feature3"
+         "feature2";
+    .box{
+        text-align: center;
+        place-content: center;
+        font-family:'Arial Narrow', Arial, sans-serif;
+        font-size: larger;
+        height: 150px; 
+    }
+    #box1{
+        background-color: blue;
+        height: 50px;
+        grid-area: box1;
+    }
+    #header{
+        grid-area: header;
+        background-color: lightblue;
+        
+    }
+    #feature1{
+        grid-area: feature1;
+        background-color: orange;
+      
+        
+    }
+    #feature2{
+        grid-area: feature2;
+        background-color: plum;
+
+    }
+    #feature3{
+        grid-area: feature3;
+        background-color: orangered;
+
+    }
+    #signup{
+        background-color: rgb(18, 231, 231);
+        grid-area: signup;
+    }
+    
+    #content{
+        grid-area: content;
+        background-color: lightgray;
+
+    }
+}
+}
